@@ -18,11 +18,22 @@
     <ClCompile Include="translation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="newFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="messages.po">
       <Filter>Source Files</Filter>
     </None>
     <None Include="packages.config" />
+    <None Include="trans.po">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="newFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
